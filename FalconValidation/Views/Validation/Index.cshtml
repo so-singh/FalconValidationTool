@@ -1,0 +1,200 @@
+﻿@using Microsoft.AspNetCore.Html;
+@inject IHtmlHelper htmlHelper
+@{
+    ViewData["Title"] = "Edit Page";
+
+}
+
+@model ValidationFields
+
+
+
+<style type="text/css">
+    .div-table {
+        display: table;
+        width: auto;
+        background-color: #eee;
+        border: 1px solid #666666;
+        border-spacing: 5px; /* cellspacing:poor IE support for  this */
+    }
+
+    .div-table-row {
+        display: table-row;
+        width: auto;
+        clear: both;
+    }
+
+    .div-table-col {
+        float: left; /* fix for  buggy browsers */
+        display: table-column;
+        width: 200px;
+        background-color: #ccc;
+    }
+</style>
+@*@if (File.Exists(Model.PDFFileName))*@
+
+@if (Model.FileExist.Contains("true"))
+{
+    @using (Html.BeginForm())
+    {
+        <div class="div-table" style="width:100%;height:750px;">
+            <div class="div-table-row" style="width:100%">
+                <div class="div-table-col" align="left" style="width:50%">
+                    <h3>Customer Details</h3>
+                    @Html.HiddenFor(model => model.ValidationID, new { htmlAttributes = new { @class = "form-control" } })
+                    <div class="div-table" style="width:100%;height:100%;">
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="left" style="width:30%">
+                                Customer Name
+                            </div>
+                            <div class="div-table-col" align="left" style="width:70%">
+                                @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="left" style="width:30%">
+                                Case Number
+                            </div>
+                            <div class="div-table-col" align="left" style="width:70%">
+                                @Html.EditorFor(model => model.CaseNumber, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="left" style="width:30%">
+                                Case Open Date
+                            </div>
+                            <div class="div-table-col" align="left" style="width:70%">
+                                @Html.EditorFor(model => model.CaseOpenDate, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="left" style="width:100%">
+                                <h3>Case Action</h3>
+                                <div class="div-table" style="width:100%;height:100%;">
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Phone Number
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:70%">
+                                            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Email Address
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:70%">
+                                            @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Travel Indicator Status
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:70%">
+                                            @Html.DropDownListFor(m => m.TravelIndicatorStatus,
+                                    new SelectList(new string[] { "TRUE", "FALSE"}))
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="left" style="width:100%">
+                                <div class="div-table" style="width:100%;height:100%;">
+                                    <h3>Transaction History</h3>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Transaction_Date
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Amount
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            Merchant_Name
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[0].TransactionDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[0].Amount, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[0].MerchantName, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[1].TransactionDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[1].Amount, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[1].MerchantName, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[2].TransactionDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[2].Amount, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[2].MerchantName, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[3].TransactionDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[3].Amount, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[3].MerchantName, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                    <div class="div-table-row" style="width:100%">
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[4].TransactionDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[4].Amount, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                        <div class="div-table-col" align="left" style="width:30%">
+                                            @Html.EditorFor(model => model.TransactionHistoryList[4].MerchantName, new { htmlAttributes = new { @class = "form-control" } })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-table-row" style="width:100%">
+                            <div class="div-table-col" align="right" style="width:100%">
+                                <input type="submit" id="btnSubmit" value="Submit" formaction="@Url.Action("Save")" formmethod="post" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-table-col" align="right" style="width:50%;height:100%">
+                    
+                    <object data="@Url.Action("GetPDF", "Validation", new { pdfFileName= Model.PDFFileName })" type="application/pdf" width="100%" height="100%">
+                    
+                    </object>
+                    
+           
+                </div>
+            </div>
+        </div>
+    }
+}
+
+ else
+            {
+<span style="color:red;font-size: 24px;">ERROR :File @Model.PDFFileName doesn't exist</span>
+<br />
+@Html.ActionLink("Go Back to Edit Page", "Index", "Authenticate", new { ActiontoPerform = "Edit" })
+            }

@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Html;
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<ValidationFields>
+<style>
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+</style> @using (Html.BeginForm())
+{ @if (ViewBag.ActionToPerform == "Edit")
+    {
+        <h3>Falcon Validations Edit List</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Case Number</th>
+                    <th>Case Open Date</th>
+                    <th>Action</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ValidationFields validationField in Model)
+                {
+                    <tr>
+                        <td> @(String.IsNullOrEmpty(@validationField.CustomerName) ? "N/A" : @validationField.CustomerName) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.CaseNumber) ? "N/A" : @validationField.CaseNumber) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.CaseOpenDate) ? "N/A" : @validationField.CaseOpenDate) </td>
+                        <td> @Html.ActionLink("Edit", "Index", "Validation", new { validationId = validationField.ValidationID }) </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+         <h3>Falcon Validations Resubmit List</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Case Number</th>
+                    <th>Case Open Date</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Travel Indicator</th>
+                    <th>Modified By</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ValidationFields validationField in Model)
+                {
+                    <tr>
+                        <td> @(String.IsNullOrEmpty(@validationField.CustomerName) ? "N/A" : @validationField.CustomerName) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.CaseNumber) ? "N/A" : @validationField.CaseNumber) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.CaseOpenDate) ? "N/A" : @validationField.CaseOpenDate) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.PhoneNumber) ? "N/A" : @validationField.PhoneNumber) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.EmailAddress) ? "N/A" : @validationField.EmailAddress) </td>
+                        <td> @(String.IsNullOrEmpty(@validationField.TravelIndicatorStatus) ? "N/A" : @validationField.TravelIndicatorStatus)</td>
+                        <td> @(String.IsNullOrEmpty(@validationField.ModifiedBy) ? "N/A" : @validationField.ModifiedBy)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }          }

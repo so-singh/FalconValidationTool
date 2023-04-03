@@ -1,0 +1,94 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+    }
+
+    h1 {
+        color: #ff0000;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<h2>Welcome to Falcon Validation Tool</h2>
+
+@using (Html.BeginForm())
+{
+    @if (ViewBag.IsAuthenticated == "true")
+    {
+        <style>
+            .styled-dropdown {
+                border: 1px solid #000000;
+                border-radius: 4px;
+                background-color: white;
+                color: #000000;
+                padding: 6px 12px;
+                font-size: 14px;
+                line-height: 1.42857143;
+                height: 34px;
+                width: 200px;
+            }
+
+                .styled-dropdown option {
+                    color: #000000;
+                    background-color: white;
+                }
+        </style>
+        <label>Choose the action you want to perform</label>
+
+ @*       @Html.DropDownList("myDropdown", new SelectListItem[]
+{
+     new SelectListItem() { Text = "Edit", Value = "Edit" },
+     new SelectListItem() { Text = "View", Value = "View" }}
+     ,"==Select Option==",
+    new { onchange = "document.location.href = '/Falcon/Authenticate/Index?ActionToPerform=' + this.options[this.selectedIndex].value;" ,@class = "styled-dropdown" }
+)*@
+        @Html.DropDownList("myDropdown", new List<SelectListItem>
+{
+    new SelectListItem() { Text = "Edit", Value = "Edit" },
+    new SelectListItem() { Text = "View", Value = "View" }
+}, "==Select Option==", new {
+    onchange = "redirectToAction(this.value);",
+    @class = "styled-dropdown"
+})
+
+        <script>
+            function redirectToAction(action) {
+                var url = '@Url.Action("Index","Authenticate")?ActionToPerform=' + action;
+                window.location.href = url;
+            }
+        </script>
+
+
+
+        
+    }
+    else
+
+    {
+        <h1>User is not authorized</h1>
+        <p>Sorry, you do not have permission to access this content.</p>
+
+    }
+
+
+}

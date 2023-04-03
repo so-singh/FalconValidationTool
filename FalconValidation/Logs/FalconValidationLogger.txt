@@ -1,0 +1,349 @@
+2023-04-03 10:03:29,507 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:03:29,882 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:03:29,892 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:03:29,892 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:03:29,892 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:03:30,468 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:03:30,474 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:04:38,277 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - View
+2023-04-03 10:04:38,278 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Fetch all the Resubmitted records
+2023-04-03 10:04:44,391 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:04:44,391 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:04:47,302 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:04:47,303 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:05:00,009 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:05:00,017 [.NET ThreadPool Worker] DEBUG FalconValidation.Repositories.FalconValidationRepository - helllllllllllo
+2023-04-03 10:05:00,050 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File doesn't exist - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9400591.PDF
+2023-04-03 10:05:00,050 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:05:10,186 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:05:10,186 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:05:11,999 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:05:12,000 [.NET ThreadPool Worker] DEBUG FalconValidation.Repositories.FalconValidationRepository - helllllllllllo
+2023-04-03 10:05:12,003 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File doesn't exist - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_1199681.PDF
+2023-04-03 10:05:12,003 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:05:14,094 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:05:14,094 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:05:15,697 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:05:15,697 [.NET ThreadPool Worker] DEBUG FalconValidation.Repositories.FalconValidationRepository - helllllllllllo
+2023-04-03 10:05:15,900 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_1193887.PDF
+2023-04-03 10:34:25,241 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:34:25,681 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:34:25,683 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:34:25,683 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:34:25,683 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:34:26,228 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:34:26,234 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:34:31,138 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:34:31,140 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:34:31,349 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:34:32,254 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:34:35,137 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:34:35,138 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:34:35,195 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:34:35,196 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_507779.PDF
+2023-04-03 10:34:35,658 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_507779.PDF
+2023-04-03 10:34:51,284 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - Action Save started
+2023-04-03 10:34:51,285 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Saving the Data
+2023-04-03 10:34:51,290 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() started
+2023-04-03 10:34:51,345 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() ended
+2023-04-03 10:34:51,345 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Redirect to Controller Authenticate
+2023-04-03 10:34:51,364 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:34:51,364 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:34:51,364 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:34:51,367 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:34:53,579 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:34:53,580 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:34:53,583 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:34:53,583 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_531871.PDF
+2023-04-03 10:34:53,806 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_531871.PDF
+2023-04-03 10:34:56,759 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - Action Save started
+2023-04-03 10:34:56,759 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Saving the Data
+2023-04-03 10:34:56,759 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() started
+2023-04-03 10:34:56,771 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() ended
+2023-04-03 10:34:56,771 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Redirect to Controller Authenticate
+2023-04-03 10:34:56,784 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:34:56,784 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:34:56,784 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:34:56,789 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:34:59,270 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:34:59,270 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:34:59,273 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:34:59,273 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_435597.PDF
+2023-04-03 10:34:59,275 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:35:03,765 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:03,765 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:03,765 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:03,768 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:06,021 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:35:06,021 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:35:06,024 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:35:06,024 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_482787.PDF
+2023-04-03 10:35:06,026 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:35:08,054 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:08,054 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:08,054 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:08,057 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:09,872 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:35:09,872 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:35:09,875 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:35:09,875 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_463747.PDF
+2023-04-03 10:35:09,877 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:35:11,575 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:11,576 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:11,576 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:11,578 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:23,796 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:23,796 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:23,796 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:23,800 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:26,381 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:35:26,381 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:35:26,385 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:35:26,385 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9389673.PDF
+2023-04-03 10:35:26,568 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_9389673.PDF
+2023-04-03 10:35:29,664 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:35:29,664 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:35:32,131 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:32,131 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:32,131 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:32,135 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:34,476 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:35:34,476 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:35:34,480 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:35:34,480 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9389673.PDF
+2023-04-03 10:35:34,734 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_9389673.PDF
+2023-04-03 10:35:37,237 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:35:37,237 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:35:40,191 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:40,191 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:40,191 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:40,194 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:35:44,482 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:35:44,483 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:35:44,486 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:35:44,486 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9389673.PDF
+2023-04-03 10:35:44,658 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_9389673.PDF
+2023-04-03 10:35:58,021 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - Action Save started
+2023-04-03 10:35:58,021 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Saving the Data
+2023-04-03 10:35:58,021 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() started
+2023-04-03 10:35:58,030 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - SaveFalconValidations() ended
+2023-04-03 10:35:58,031 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Redirect to Controller Authenticate
+2023-04-03 10:35:58,046 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:35:58,046 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:35:58,046 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:35:58,050 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:36:00,688 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:36:00,689 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:36:00,692 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:36:00,692 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9398741.PDF
+2023-04-03 10:36:00,693 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:36:04,001 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:36:04,001 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:36:04,001 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:36:04,004 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:36:10,264 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:36:10,264 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:36:10,267 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:36:10,267 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9400591.PDF
+2023-04-03 10:36:10,268 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:36:22,340 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:36:22,340 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:36:22,340 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:36:22,343 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:36:40,672 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:36:40,672 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:36:40,675 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:36:40,675 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_1199681.PDF
+2023-04-03 10:36:40,677 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:36:51,438 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:36:51,438 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:36:51,438 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:36:51,440 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:36:56,061 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:36:56,061 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:36:56,064 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:36:56,065 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_1193887.PDF
+2023-04-03 10:36:56,205 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_1193887.PDF
+2023-04-03 10:40:36,354 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:40:36,724 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:40:36,725 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:40:36,725 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:40:36,725 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:40:37,100 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:40:37,103 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:40:48,222 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:40:48,223 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:40:48,305 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:40:48,857 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:41:03,974 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:41:03,975 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:41:04,023 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:41:04,023 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_1193887.PDF
+2023-04-03 10:41:17,073 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:41:17,073 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:41:17,073 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:41:17,075 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:41:21,469 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:41:21,469 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:41:21,472 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:41:21,472 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_557887.PDF
+2023-04-03 10:41:24,786 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:41:24,786 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:41:24,786 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:41:24,789 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:41:26,473 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:41:26,473 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:41:26,476 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:41:26,476 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_507779.PDF
+2023-04-03 10:41:28,453 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:41:28,453 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:41:28,453 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:41:28,456 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:41:30,434 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:41:30,434 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:41:30,437 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:41:30,437 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_531871.PDF
+2023-04-03 10:41:32,257 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:41:32,257 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:41:32,257 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:41:32,259 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:41:34,612 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:41:34,613 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:41:34,616 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:41:34,616 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_435597.PDF
+2023-04-03 10:41:34,617 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:45:22,469 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:45:22,789 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:45:22,790 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:45:22,791 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:45:22,791 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:45:23,151 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:45:23,155 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:45:27,716 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:45:27,717 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:45:27,789 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:45:28,315 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:46:16,777 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:46:16,778 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:46:16,815 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:46:16,815 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9389673.PDF
+2023-04-03 10:50:08,247 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:50:08,534 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:50:08,535 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:50:08,535 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:50:08,535 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:50:08,903 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:50:08,908 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:50:12,172 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:50:12,173 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:50:12,245 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:50:12,737 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:50:17,026 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:50:17,026 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - PATELCO\admuibot2
+2023-04-03 10:50:17,027 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started
+2023-04-03 10:50:17,066 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:50:17,067 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9398741.PDF
+2023-04-03 10:50:17,082 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 10:52:17,170 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:52:17,540 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:52:17,541 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:52:17,541 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:52:17,541 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:52:17,885 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:52:17,889 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:52:21,656 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:52:21,657 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:52:21,745 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:52:22,342 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 10:52:35,067 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 10:52:35,068 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 
+2023-04-03 10:52:35,069 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 
+2023-04-03 10:52:35,115 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 10:52:35,115 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_9389673.PDF
+2023-04-03 10:59:17,064 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 10:59:17,353 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 10:59:17,354 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 10:59:17,355 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 10:59:17,355 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 10:59:17,686 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 10:59:17,691 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 10:59:21,116 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 10:59:21,117 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 10:59:21,195 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 10:59:21,678 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:02:52,761 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 11:02:53,040 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 11:02:53,042 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 11:02:53,042 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 11:02:53,042 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 11:02:53,381 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 11:02:53,384 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 11:02:57,178 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:02:57,179 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:02:57,255 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:02:57,797 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:04:05,742 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 11:04:06,547 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 15
+2023-04-03 11:04:14,930 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 15
+2023-04-03 11:04:14,978 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 11:04:16,314 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_531871.PDF
+2023-04-03 11:09:05,005 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 11:09:05,293 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 11:09:05,294 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 11:09:05,294 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 11:09:05,294 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 11:09:05,619 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 11:09:05,624 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 11:09:19,481 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:09:19,481 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:09:19,556 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:09:20,060 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:09:48,250 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 11:09:48,250 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 15
+2023-04-03 11:09:48,252 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 15
+2023-04-03 11:09:48,315 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 11:09:48,316 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_531871.PDF
+2023-04-03 11:09:48,658 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - File Name is - CDR_531871.PDF
+2023-04-03 11:09:55,569 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 11:09:55,570 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 11:09:57,995 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:09:57,995 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:09:57,995 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:09:57,998 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:10:14,204 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 11:10:14,204 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 18
+2023-04-03 11:10:14,204 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 18
+2023-04-03 11:10:14,207 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 11:10:14,207 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_463747.PDF
+2023-04-03 11:10:14,209 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 11:11:07,351 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2023-04-03 11:11:07,684 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-03 11:11:07,696 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-03 11:11:07,696 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\UIPath\Visual Studio 2022\FalconValidation-main\FalconValidation-main\FalconValidation\
+2023-04-03 11:11:07,696 [1] DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2023-04-03 11:11:08,066 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - User LoggedIn -PATELCO\admuibot2
+2023-04-03 11:11:08,071 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Is User Authenticated - True
+2023-04-03 11:11:11,575 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:11:11,575 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:11:11,658 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:11:12,174 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:11:15,092 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 11:11:15,092 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 17
+2023-04-03 11:11:15,093 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 17
+2023-04-03 11:11:15,147 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 11:11:15,147 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_482787.PDF
+2023-04-03 11:11:15,149 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 11:11:17,787 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:11:17,787 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:11:17,787 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:11:17,790 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
+2023-04-03 11:11:20,907 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - User in controller - PATELCO\admuibot2
+2023-04-03 11:11:20,907 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.ValidationController - ValidationID to fetch  - 16
+2023-04-03 11:11:20,907 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() started for ValidationID - 16
+2023-04-03 11:11:20,910 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetFalconValidations() ended
+2023-04-03 11:11:20,910 [.NET ThreadPool Worker] ERROR FalconValidation.Controllers.ValidationController - File to check - \\patelco.org\Root\Reports\RPA\Technology\Development\Bots\DEV\UIPath\Falcon_Alert_Config\Extraction_Failed\CDR_435597.PDF
+2023-04-03 11:11:20,912 [.NET ThreadPool Worker] DEBUG FalconValidation.Controllers.ValidationController - Exception DB Entry
+2023-04-03 11:11:23,166 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Action returned by user is - Edit
+2023-04-03 11:11:23,166 [.NET ThreadPool Worker] INFO  FalconValidation.Controllers.HomeController - Getting all the Records to Edit
+2023-04-03 11:11:23,166 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() started
+2023-04-03 11:11:23,169 [.NET ThreadPool Worker] INFO  FalconValidation.Repositories.FalconValidationRepository - GetAllFalconValidations() ended
